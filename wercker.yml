@@ -3,10 +3,17 @@
 box: debian
 
 build:
-  build:
   steps:
     - arjen/hugo-build@1.13.1:
         version: "HEAD"
         config: config.toml
         theme: hugo-universal-theme
         flags: --buildDrafts=true
+deploy:
+  steps:
+    - install-packages:
+        packages: git ssh-client
+    - lukevivier/gh-pages@0.2.1:
+        token: $GIT_TOKEN
+        # domain: hugo-wercker.ig.nore.me
+        basedir: public
