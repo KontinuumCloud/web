@@ -1,0 +1,8 @@
+weight: 4
+title: "Slide 4"
+description: >
+  <ul class="list-style-none">
+    <li>Point 1</li>
+    <li>Point 2</li>
+  </ul>
+image: "img/carousel/template-easy-code.png"

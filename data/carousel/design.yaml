@@ -1,0 +1,10 @@
+weight: 3
+title: "Slide 3"
+description: >
+  <ul class="list-style-none">
+    <li>Point 1</li>
+    <li>Point 2</li>
+    <li>Point 3</li>
+    <li>Point 4</li>
+  </ul>
+image: "img/carousel/template-easy-customize.png"

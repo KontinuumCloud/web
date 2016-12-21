@@ -1,0 +1,10 @@
+weight: 2
+title: "Slide 2"
+description: >
+  <ul class="list-style-none">
+     <li>Automation</li>
+     <li>PaaS</li>
+     <li>Robotics</li>
+     <li>IaaS</li>
+   </ul>
+image: "img/carousel/template-mac.png"
